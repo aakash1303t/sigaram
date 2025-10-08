@@ -12,8 +12,8 @@ export default function ContactSection() {
       icon: Phone,
       title: "Call Us",
       description: "Speak with our admissions team",
-      contact: "+91 98765 43210",
-      link: "tel:+919876543210",
+      contact: "+91 95000 10676",
+      link: "tel:+919500010676",
       color: "bg-primary/10 text-primary",
     },
     {
@@ -27,9 +27,9 @@ export default function ContactSection() {
     {
       icon: MapPin,
       title: "Visit Us",
-      description: "123 Education Lane\nChennai, Tamil Nadu\n600001",
+      description: "Plot No 4 Ram Nagar 1st Street, Backside to Ponniyamman Temple, Ponni Amman Koil Main Rd, Nanmangalam-Kovilambakkam-600129",
       contact: "Get Directions",
-      link: "#",
+      link: "https://www.google.com/maps/search/?api=1&query=12.9397067,80.1776035",
       color: "bg-primary/10 text-primary",
     },
   ];
@@ -108,7 +108,7 @@ export default function ContactSection() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="flex items-center justify-between p-4 bg-secondary rounded-xl">
               <span className="font-semibold text-foreground">Monday - Friday</span>
-              <span className="text-muted-foreground">8:00 AM - 5:00 PM</span>
+              <span className="text-muted-foreground">9:00 AM - 7:00 PM</span>
             </div>
             <div className="flex items-center justify-between p-4 bg-secondary rounded-xl">
               <span className="font-semibold text-foreground">Saturday</span>

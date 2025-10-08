@@ -20,6 +20,8 @@ export default function Navigation() {
     { href: "#about", label: "About" },
     { href: "#programs", label: "Programs" },
     { href: "#gallery", label: "Gallery" },
+    { href: "#testimonials", label: "Testimonials" },
+    { href: "#faq", label: "FAQ" },
     { href: "#contact", label: "Contact" },
   ];
 
@@ -49,12 +51,13 @@ export default function Navigation() {
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300 }}
           >
-            <div className="w-12 h-12 bg-gradient-to-br from-primary to-accent rounded-full flex items-center justify-center">
-              <GraduationCap className="text-white text-xl" />
-            </div>
-            <span className="text-2xl font-display font-bold text-primary">
-              Sigaram Montessori
-            </span>
+            {/* Actual Logo Image */}
+            <img
+              src="/sig.png"
+              alt="Sigaram Montessori Logo"
+              className="h-14 w-auto border-none shadow-none"
+              style={{ display: "block" }}
+            />
           </motion.div>
 
           {/* Desktop Navigation */}
