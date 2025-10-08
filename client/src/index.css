@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 1.5rem;
+  --background: hsl(30 40% 98%);
+  --foreground: hsl(25 20% 20%);
+  --card: hsl(0 0% 100%);
+  --card-foreground: hsl(25 20% 20%);
+  --popover: hsl(0 0% 100%);
+  --popover-foreground: hsl(25 20% 20%);
+  --primary: hsl(25 95% 53%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(25 100% 97%);
+  --secondary-foreground: hsl(25 30% 30%);
+  --muted: hsl(30 30% 95%);
+  --muted-foreground: hsl(25 10% 45%);
+  --accent: hsl(200 80% 60%);
+  --accent-foreground: hsl(0 0% 100%);
+  --destructive: hsl(356.3033 90.5579% 54.3137%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(25 20% 90%);
+  --input: hsl(200 23.0769% 97.4510%);
+  --ring: hsl(25 95% 53%);
+  --chart-1: hsl(25 95% 53%);
+  --chart-2: hsl(159.7826 100% 36.0784%);
+  --chart-3: hsl(42.0290 92.8251% 56.2745%);
+  --chart-4: hsl(147.1429 78.5047% 41.9608%);
+  --chart-5: hsl(341.4894 75.2000% 50.9804%);
+  --sidebar: hsl(25 100% 97%);
+  --sidebar-foreground: hsl(25 20% 20%);
+  --sidebar-primary: hsl(25 95% 53%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(25 100% 97%);
+  --sidebar-accent-foreground: hsl(25 95% 53%);
+  --sidebar-border: hsl(25 20% 90%);
+  --sidebar-ring: hsl(25 95% 53%);
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Fredoka', sans-serif;
+  --font-serif: Georgia, serif;
+  --font-mono: Menlo, monospace;
+}
+
+.dark {
+  --background: hsl(25 20% 8%);
+  --foreground: hsl(30 40% 95%);
+  --card: hsl(25 30% 10%);
+  --card-foreground: hsl(30 40% 95%);
+  --popover: hsl(25 20% 8%);
+  --popover-foreground: hsl(30 40% 95%);
+  --primary: hsl(25 95% 53%);
+  --primary-foreground: hsl(0 0% 100%);
+  --secondary: hsl(25 30% 15%);
+  --secondary-foreground: hsl(30 40% 95%);
+  --muted: hsl(25 20% 12%);
+  --muted-foreground: hsl(25 10% 60%);
+  --accent: hsl(200 80% 60%);
+  --accent-foreground: hsl(0 0% 100%);
+  --destructive: hsl(356.3033 90.5579% 54.3137%);
+  --destructive-foreground: hsl(0 0% 100%);
+  --border: hsl(25 20% 20%);
+  --input: hsl(25 30% 18%);
+  --ring: hsl(25 95% 53%);
+  --sidebar: hsl(25 30% 10%);
+  --sidebar-foreground: hsl(30 40% 95%);
+  --sidebar-primary: hsl(25 95% 53%);
+  --sidebar-primary-foreground: hsl(0 0% 100%);
+  --sidebar-accent: hsl(25 30% 15%);
+  --sidebar-accent-foreground: hsl(25 95% 53%);
+  --sidebar-border: hsl(25 20% 20%);
+  --sidebar-ring: hsl(25 95% 53%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  .card-hover {
+    @apply transition-all duration-300;
+  }
+
+  .card-hover:hover {
+    @apply -translate-y-2;
+    box-shadow: 0 20px 40px rgba(255, 111, 15, 0.15);
+  }
+}
+
+@layer utilities {
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary rounded;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(25 95% 45%);
+  }
+}
+
+/* Wave SVG Path */
+.wave-path {
+  fill: white;
+}
