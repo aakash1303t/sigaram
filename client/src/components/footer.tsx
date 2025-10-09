@@ -24,9 +24,9 @@ export default function Footer() {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: "#", name: "Facebook" },
-    { icon: Instagram, href: "#", name: "Instagram" },
-    { icon: Youtube, href: "#", name: "YouTube" },
+    { icon: Facebook, href: "https://www.facebook.com/sigarammontessori/", name: "Facebook" },
+    { icon: Instagram, href: "https://www.instagram.com/sigarammontessorinanmang/", name: "Instagram" },
+    { icon: Youtube, href: "https://www.youtube.com/@SigaramMontessorischool/shorts", name: "YouTube" },
   ];
 
   return (
