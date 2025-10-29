@@ -11,36 +11,20 @@ export default function GallerySection() {
 
   const galleryImages = [
     {
-      src: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500",
+      src: "/sigaram1.jpg",
       alt: "Classroom environment"
     },
     {
-      src: "https://images.unsplash.com/photo-1610557892470-55d9e80c0bce?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500",
+      src: "/sigaram2.png",
       alt: "Children doing art activities"
     },
     {
-      src: "https://images.unsplash.com/photo-1551410224-699683e15636?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500",
+      src: "/sigaram3.png",
       alt: "Outdoor play area"
     },
     {
-      src: "https://images.unsplash.com/photo-1596464716127-f2a82984de30?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500",
+      src: "/sigaram4.png",
       alt: "Math learning activity"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500",
-      alt: "Reading corner"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1519340241574-2cec6aef0c01?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500",
-      alt: "Music and movement class"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1595435742656-5272d0b3fa82?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500",
-      alt: "Science exploration area"
-    },
-    {
-      src: "https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&h=500",
-      alt: "Lunch time"
     },
   ];
 

@@ -77,7 +77,7 @@ export default function AboutSection() {
             data-testid="about-image"
           >
             <img
-              src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              src="/sigaram5.png"
               alt="Montessori classroom environment"
               className="rounded-3xl shadow-2xl w-full"
             />

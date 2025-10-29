@@ -118,7 +118,7 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             <motion.img
-              src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              src="/sigaram2.png"
               alt="Happy children in Montessori classroom"
               className="rounded-3xl shadow-2xl w-full"
               animate={{ y: [-10, 10, -10] }}

@@ -104,7 +104,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="border-t border-white/20 pt-8 text-center">
           <p className="text-white/70" data-testid="footer-copyright">
-            &copy; 2024 Sigaram Montessori. All rights reserved.
+            &copy; 2025 Sigaram Montessori. All rights reserved.
           </p>
         </div>
       </div>

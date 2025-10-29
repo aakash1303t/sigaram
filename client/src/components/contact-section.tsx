@@ -20,8 +20,8 @@ export default function ContactSection() {
       icon: Mail,
       title: "Email Us", 
       description: "Send us your questions",
-      contact: "hello@sigarammontessori.edu",
-      link: "mailto:hello@sigarammontessori.edu",
+      contact: "sigarammontessori@gmail.com",
+      link: "mailto:sigarammontessori@gmail.com",
       color: "bg-accent/10 text-accent",
     },
     {
