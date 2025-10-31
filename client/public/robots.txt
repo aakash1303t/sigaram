@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /401
+Disallow: /404
+
+# Allow all other pages to be crawled
+Allow: /
+
+# Sitemap Location
+Sitemap: https://www.sigarammontessori.in/sitemap.xml
